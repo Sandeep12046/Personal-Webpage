@@ -1,0 +1,161 @@
+/*Projects*/
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #f1f1f1;
+    margin: 2rem;
+  }
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+    margin: 50px;
+    padding: 15px;
+    background-color: whitesmoke;
+    
+}
+.card h4{
+    color:rgb(82, 41, 219)
+}
+.card p{
+    color:black;
+}
+
+/*title*/
+
+.title h2{
+    text-align: right;
+}
+/* Resume */
+
+.language{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    padding: 10px;
+}
+
+.education{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    padding: 10px;
+}
+.education h2{
+    background-color: #f3f3f3f3;
+}
+
+.education p{
+    text-align: right;
+}
+
+/*Skills*/
+
+.skills{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    padding: 10px;
+}
+.skills h2{
+    background-color: #f3f3f3f3;
+}
+.skills li{
+display: inline;
+padding: 10px;
+}
+/*Course*/
+
+.course{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    padding: 10px;
+}
+.course h2{
+    background-color: #f3f3f3f3;
+}
+
+
+/*certificates*/
+
+.certificates{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    padding: 10px;
+}
+.certificates h2{
+    background-color: #f3f3f3f3;
+}
+
+/*contact*/
+
+.phone{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 03s;
+    width: 60%;
+    padding: 10px;
+}
+
+.email{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 03s;
+    width: 60%;
+    padding: 10px;
+}
+.address{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 03s;
+    width: 90%;
+    padding: 1px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
+
+body {
+  background: #f2f2f2;
+}
+
+.container  {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 500px;
+  width: 800px;
+  background: #f2f2f2;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  text-align: justify;
+  color: black;
+  padding: 40px;
+  font-family: 'Merriweather', serif;
+}
+
+form {
+ display: grid;
+ grid-template-columns: 200px 1fr;
+ grid-gap:16px;
+  
+}
+
+input {
+  font-weight: 300;
+}
+
+
+/*about*/
